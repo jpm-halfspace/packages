@@ -1,5 +1,5 @@
 [project]
-name = "package-a"
+name = "packages-test"
 version = "0.1.0"
 description = "Add your description here"
 readme = "README.md"
@@ -10,7 +10,7 @@ requires-python = ">=3.11"
 dependencies = []
 
 [project.scripts]
-package-a = "package_a:main"
+packages-test = "packages_test:main"
 
 [build-system]
 requires = ["hatchling"]
